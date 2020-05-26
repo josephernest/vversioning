@@ -67,7 +67,7 @@ Note: Of course this doesn't scale for *big projects* because it would waste dis
 
 ## I don't want to use vversioning anymore. Is my data lost?
 
-No! All your changelog data is inside *your* source code files, inside your comments in `==CHANGELOG==` blocks.
+No! All your changelog data is inside *your* source code files, inside `==CHANGELOG==` blocks, in your code comments.
 
 So if you don't want to use **vversionning** anymore, there's nothing to do, nothing to export: your data is already there, in your source code.
 
