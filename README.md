@@ -19,7 +19,7 @@ Here is a **dirty but working** solution.
 
 ## **vversioning** for single-file projects
 
-* I'm sure you have done this hundreds of times already: **just use a new file with an incremental suffix** each time you do significant changes (see for example `test1\` of this actual repository):
+* I'm sure you have done this hundreds of times already: **just use a new file with an incremental suffix** each time you do significant changes. See for example `test1/` of this actual repository:
 
         myscript1.py
         myscript2.py
