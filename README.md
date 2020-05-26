@@ -1,7 +1,7 @@
 # vversioning 
 
 
-**vversioning** is a (quick and dirty) versioning system, done in 22 lines of Python code.
+**vversioning** is a (quick and dirty) versioning system, done in less than 30 lines of Python code.
 
 ![](https://i.imgur.com/hzu7ERc.png)
 
