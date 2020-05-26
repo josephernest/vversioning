@@ -41,7 +41,7 @@ Here are some **dirty but working** solutions.
      ![](https://i.imgur.com/N2Jb2nS.png)
      
      
-Note: it uses Python3, so depending on your system, you might want to do `python3 versioning.py test1`.
+Note: it uses Python3, so depending on your system, you might want to do `python3 versioning.py test1` instead.
 
 
 ## vversioning for bigger projects
