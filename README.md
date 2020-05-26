@@ -48,7 +48,7 @@ Note: it uses Python3, so depending on your system, you might need to do `python
 
 ## How to use it for multiple-file projects? (aka "just archive your code in a ZIP" method)
 
-For projects containing multiple files, just continue to use `==CHANGELOG==` blocks in your code. Then ZIP the whole folder every time you decide it's a new version. For example see `test2/` of the current repo.
+For projects containing multiple files, just continue to use `==CHANGELOG==` blocks in your code comments. Then ZIP the whole folder every time you decide it's a new version. For example see `test2/` of the current repo:
 
 ![](https://i.imgur.com/03pFG3C.png)
 
