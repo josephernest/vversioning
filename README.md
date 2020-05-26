@@ -23,7 +23,7 @@ Here are some **dirty but working** solutions.
         myscript2.py
         ...
 
-    (the latest is the more recent). 
+    and create a new file with an incremental suffix `...1.py`, `...2.py`, etc. each time you do significant changes. You can also add a date suffix e.g. `myscript_20200526_1328.py` so that it is sorted correctly.
 
 * Write changes in your source files, inside comments in such blocks:
 
