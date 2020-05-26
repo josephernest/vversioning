@@ -19,7 +19,7 @@ Here is a **dirty but working** solution.
 
 ## How to use it for single-file projects?
 
-* You're probably already doing this: **just use a new file with an incremental suffix** each time you do significant changes in your code. See for example `test1/` of this actual repository:
+* You're probably already doing this: **just use a new file with an incremental number suffix** each time you do significant changes in your code. See for example `test1/` of this actual repository:
 
         myscript1.py
         myscript2.py
