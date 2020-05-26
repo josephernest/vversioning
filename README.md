@@ -19,17 +19,15 @@ Here is a **dirty but working** solution.
 
 ## **vversioning** for single-file projects
 
-* Use a new file with an incremental suffix `...1.py`, `...2.py`, etc., each time you do significant changes (see for example `test1\` of this actual repository):
+* I'm sure you have done this hundreds of times already: **just use a new file with an incremental suffix** each time you do significant changes (see for example `test1\` of this actual repository):
 
         myscript1.py
         myscript2.py
         ...
+        
+    You could also add a date suffix e.g. *myscript_20200526_1328.py* or any other file-naming system that you like so that it is sorted correctly.
 
-    I am sure that you have done this hundreds of times for small projects already.
-    
-    You could also add a date suffix e.g. `myscript_20200526_1328.py` or any other file-naming system that you like so that it is sorted correctly.
-
-* Log your changes in your source files, inside `==CHANGELOG==` blocks (typically in top comments of your code):
+* **Log your changes** in your source files, inside `==CHANGELOG==` blocks (typically in top comments of your code):
 
         ==CHANGELOG==
         * list your changes here
