@@ -71,7 +71,7 @@ No! All your changelog data is inside *your* source code files, inside `==CHANGE
 
 So if you don't want to use **vversionning** anymore, there's nothing to do, nothing to export: your data is already there, in your source code.
 
-## Windows users
+## For Windows users
 
 Create a file named `vversioning.bat` somewhere in your systtem PATH containing:
 
