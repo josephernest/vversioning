@@ -3,6 +3,8 @@
 
 **vversioning** is a (quick and dirty) versioning system.
 
+![](https://i.imgur.com/hzu7ERc.png)
+
 For some projects you need a real code versioning system (like `git` or similar tools).
 
 But for some others, typically micro-size projects, you sometimes **don't want to use a complex tool**. You might want to move to git *later* when the project gets bigger, or when you want to publish it online, but using git for any small project you begin creates a lot of friction for some users like me. Examples:
