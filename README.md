@@ -64,11 +64,11 @@ and here is the result:
 
 Note: Of course this doesn't scale for *big projects* because it would waste disk space, but it's totally fine to have a ZIP of 100KB for *each* of the 20 consecutive versions of a small project.
 
-## I don't want to use vversioning. Is my data lost?
+## I don't want to use vversioning anymore. Is my data lost?
 
 No! All your changelog data is inside *your* source code files, inside your comments in ==CHANGELOG== blocks.
 
-If you don't want to use **vversionning** anymore, there's nothing to do, nothing to export: your data is already there, in your source code.
+So if you don't want to use **vversionning** anymore, there's nothing to do, nothing to export: your data is already there, in your source code.
 
 ## Windows users
 
