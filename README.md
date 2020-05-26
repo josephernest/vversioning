@@ -17,7 +17,7 @@ Here are some **dirty but working** solutions.
 
 ## **vversioning** for single-file projects
 
-* Use a new file with an incremental suffix `...1.py`, `...2.py`, etc. each time you do significant changes (see for example `test1\` of this actual repository):
+* Use a new file with an incremental suffix `...1.py`, `...2.py`, etc., each time you do significant changes (see for example `test1\` of this actual repository):
 
         myscript1.py
         myscript2.py
@@ -36,14 +36,14 @@ Here are some **dirty but working** solutions.
 
 * Run 
 
-        python versioning.py test1
+        python vversioning.py test1
 
      to display the changes along the consecutives versions:
      
      ![](https://i.imgur.com/N2Jb2nS.png)
      
      
-Note: it uses Python3, so depending on your system, you might want to do `python3 versioning.py test1` instead.
+Note: it uses Python3, so depending on your system, you might want to do `python3 vversioning.py test1` instead.
 
 
 ## vversioning for multiple-file projects (aka "just archive your code in a ZIP" method)
