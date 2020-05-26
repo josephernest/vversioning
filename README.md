@@ -41,7 +41,7 @@ Here is a **dirty but working** solution.
 
      to display the changes along the consecutive versions:
      
-     ![](https://i.imgur.com/N2Jb2nS.png)
+     ![](https://i.imgur.com/hzu7ERc.png)
      
      
 Note: it uses Python3, so depending on your system, you might need to do `python3 ...` instead of `python ...`.
