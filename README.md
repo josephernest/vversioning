@@ -29,7 +29,7 @@ Here is a **dirty but working** solution.
     
     You could also add a date suffix e.g. `myscript_20200526_1328.py` or any other file-naming system that you like so that it is sorted correctly.
 
-* Write changes in your source files, inside comments in such blocks:
+* Log your changes in your source files, inside `==CHANGELOG==` blocks (typically in top comments of your code):
 
         ==CHANGELOG==
         * list your changes here
@@ -40,13 +40,12 @@ Here is a **dirty but working** solution.
 
         python vversioning.py test1
 
-     to display the changes along the consecutives versions:
+     to display the changes along the consecutive versions:
      
      ![](https://i.imgur.com/N2Jb2nS.png)
      
      
-Note: it uses Python3, so depending on your system, you might want to do `python3 vversioning.py test1` instead.
-
+Note: it uses Python3, so depending on your system, you might need to do `python3 ...` instead of `python ...`.
 
 ## vversioning for multiple-file projects (aka "just archive your code in a ZIP" method)
 
