@@ -62,11 +62,13 @@ and here is the result:
 
 ![](https://i.imgur.com/xSR7zKp.png)
 
+How does it work? **vversioning** automatically also looks in the files inside the ZIP archives, searching for `==CHANGELOG==` blocks.
+
 Note: Of course this doesn't scale for *big projects* because it would waste disk space, but it's totally fine to have a ZIP of 100KB for *each* of the 20 consecutive versions of a small project.
 
 ## I don't want to use vversioning anymore. Is my data lost?
 
-No! All your changelog data is inside *your* source code files, inside your comments in ==CHANGELOG== blocks.
+No! All your changelog data is inside *your* source code files, inside your comments in `==CHANGELOG==` blocks.
 
 So if you don't want to use **vversionning** anymore, there's nothing to do, nothing to export: your data is already there, in your source code.
 
