@@ -23,7 +23,7 @@ Here are some **dirty but working** solutions.
         myscript2.py
         ...
 
-    and create a new file with an incremental suffix `...1.py`, `...2.py`, etc. each time you do significant changes. You can also add a date suffix e.g. `myscript_20200526_1328.py` so that it is sorted correctly.
+    and use a new file with an incremental suffix `...1.py`, `...2.py`, etc. each time you do significant changes. You can also add a date suffix e.g. `myscript_20200526_1328.py` or any other file-naming system that you like so that it is sorted correctly.
 
 * Write changes in your source files, inside comments in such blocks:
 
@@ -46,7 +46,17 @@ Note: it uses Python3, so depending on your system, you might want to do `python
 
 ## vversioning for bigger projects
 
+For projects containing multiple files, just continue to use `==CHANGELOG==` blocks in your code. Then ZIP the whole folder every time you decide it's a new version. For example see `test2/` of the current repo.
 
+![](https://i.imgur.com/03pFG3C.png)
+
+Run:
+
+    python vversioning.py test2
+    
+and here is the result:
+
+![](https://i.imgur.com/xSR7zKp.png)
 
 ## Windows users
 
