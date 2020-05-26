@@ -1,5 +1,6 @@
 # vversioning 
 
+
 **vversioning** is a (quick and dirty) versioning system.
 
 For some projects you need a real code versioning system (like `git` or similar tools).
@@ -14,9 +15,7 @@ User C: *"My project is just a single file. I don't want to use a complex versio
 
 Here are some **dirty but working** solutions.
 
-___
-
-## `vversioning` for single-file projects
+## **vversioning** for single-file projects
 
 * Write code (see for example `test1\` of this actual repository):
 
@@ -30,35 +29,47 @@ ___
 
         ==CHANGELOG==
         * list your changes here
+        * new feature xyz
         ==CHANGELOG==
 
 * Run 
 
+        python versioning.py test1
+
+     to display the changes along the consecutives versions:
+     
+     ![](https://i.imgur.com/N2Jb2nS.png)
 
 
-        ./versioning.py test1
-
-    or see [here](/#windows) for Windows users
-
-It displays the changes along the consecutives versions:
+## vversioning for bigger projects
 
 
-
-___
-
-## `vversioning` for bigger projects
-
-
-
-___
 
 ## Windows users
 
-Create a file named `vversioning.bat` somewhere in your path containing:
+Create a file named `vversioning.bat` somewhere in your systtem PATH containing:
 
-[]
+    @python "D:\path\to\vversioning.py"
 
+and then you will be able to call it from anywhere, like this:
 
-Meta: Using this method is not incompatible with using `git`. For this actual project `vversioning`, I still use `==CHANGELOG==` blocks, but I will eventually use git to update this Github-hosted project.
+![](https://i.imgur.com/N2Jb2nS.png)
+    
 
+## Meta
 
+Using this method is not incompatible with using `git`. For this actual project `vversioning`, I still use `==CHANGELOG==` blocks, but I will eventually use git to update this Github-hosted project.
+
+## About
+
+Author: Joseph Ernest ([@JosephErnest](http:/twitter.com/JosephErnest))
+
+www.afewthingz.com
+
+## License
+
+MIT license
+
+## My other projects
+
+[SamplerBox](https://github.com/josephernest/SamplerBox), [Yopp](https://github.com/josephernest/Yopp), [Writing](https://github.com/josephernest/writing), [bigpicture.js](https://github.com/josephernest/bigpicture.js), [Void CMS](https://github.com/josephernest/void), etc.
