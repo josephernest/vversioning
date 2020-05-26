@@ -13,9 +13,9 @@ User A: *"I rarely use git. If I use it for this project, will I remember which 
 
 User B: *"I want to be able to see the different versions of my code even if no software like git is installed (ex: using my parents' computer)."*
 
-User C: *"My project is just a single file. I don't want to use a complex versioning system for this."*
+User C: *"My project is just a single file. I don't want to use a complex versioning system for this. How can I archive the versions?"*
 
-Here are some **dirty but working** solutions.
+Here is a **dirty but working** solution.
 
 ## **vversioning** for single-file projects
 
