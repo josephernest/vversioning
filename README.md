@@ -17,12 +17,13 @@ User C: *"My project is just a single file. I don't want to use a complex versio
 
 Here is a **dirty but working** solution.
 
-## **vversioning** for single-file projects
+## How to use it for single-file projects?
 
-* I'm sure you have done this hundreds of times already: **just use a new file with an incremental suffix** each time you do significant changes in your code. See for example `test1/` of this actual repository:
+* You're probably already doing this: **just use a new file with an incremental suffix** each time you do significant changes in your code. See for example `test1/` of this actual repository:
 
         myscript1.py
         myscript2.py
+        myscript3.py
         ...
         
     You could also use a date suffix e.g. *myscript_20200526_1328.py* or any other file-naming system that you like so that it is sorted correctly.
@@ -45,7 +46,7 @@ Here is a **dirty but working** solution.
      
 Note: it uses Python3, so depending on your system, you might need to do `python3 ...` instead of `python ...`.
 
-## vversioning for multiple-file projects (aka "just archive your code in a ZIP" method)
+## How to use it for multiple-file projects? (aka "just archive your code in a ZIP" method)
 
 For projects containing multiple files, just continue to use `==CHANGELOG==` blocks in your code. Then ZIP the whole folder every time you decide it's a new version. For example see `test2/` of the current repo.
 
