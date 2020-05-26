@@ -39,6 +39,9 @@ Here are some **dirty but working** solutions.
      to display the changes along the consecutives versions:
      
      ![](https://i.imgur.com/N2Jb2nS.png)
+     
+     
+Note: it uses Python3, so depending on your system, you might want to do `python3 versioning.py test1`.
 
 
 ## vversioning for bigger projects
