@@ -5,7 +5,7 @@
 
 For some projects you need a real code versioning system (like `git` or similar tools).
 
-But for some others, typically micro-size projects, you sometimes don't want to use a complex tool. You might want to move to git *later* when the project gets bigger, or when you want to publish it online, but using git for any small project you begin creates a lot of friction for some users like me. Examples:
+But for some others, typically micro-size projects, you sometimes **don't want to use a complex tool**. You might want to move to git *later* when the project gets bigger, or when you want to publish it online, but using git for any small project you begin creates a lot of friction for some users like me. Examples:
 
 User A: *"I rarely use git. If I use it for this project, will I remember which commands to use in 5 years when I'll want to reopen this project? Or will I get stuck with `git wtf` and unable to quickly see the different versions?"*.
 
@@ -44,7 +44,7 @@ Here are some **dirty but working** solutions.
 Note: it uses Python3, so depending on your system, you might want to do `python3 versioning.py test1` instead.
 
 
-## vversioning for bigger projects
+## vversioning for multiple-file projects (aka "just archive your code in a ZIP" method)
 
 For projects containing multiple files, just continue to use `==CHANGELOG==` blocks in your code. Then ZIP the whole folder every time you decide it's a new version. For example see `test2/` of the current repo.
 
@@ -57,6 +57,8 @@ Run:
 and here is the result:
 
 ![](https://i.imgur.com/xSR7zKp.png)
+
+Note: Of course this doesn't scale for *big projects* because it would waste disk space, but it's totally fine to have a ZIP of 100KB for *each* of the 20 consecutive versions of a small project.
 
 ## Windows users
 
